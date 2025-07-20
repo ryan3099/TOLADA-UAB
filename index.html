@@ -46,15 +46,23 @@
     }
     .gallery-item {
       border: 2px solid red;
-      padding: 5px;
-      width: 300px;
+      padding: 10px;
+      width: 320px;
       margin: auto;
       animation: slideIn 1.5s ease;
+      background-color: #f9f9f9;
+      border-radius: 8px;
     }
     .gallery-item img {
       width: 100%;
       height: auto;
-      border-radius: 8px;
+      border-radius: 4px;
+    }
+    .desc {
+      font-size: 0.95em;
+      color: #333;
+      margin-top: 10px;
+      text-align: center;
     }
     @keyframes slideIn {
       from {
@@ -101,12 +109,30 @@
   </div>
 
   <div class="gallery">
-    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=c5831b0e075486f52a1c5de23d9813390b658512-6371080-images-thumbs&n=13" /></div>
-    <div class="gallery-item"><img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*jr2pLm--Chx7l7v-" /></div>
-    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/get-altay/7810332/2a00000187bd71f6cc7d4155f7b53901b6f7/XXL_height" /></div>
-    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/get-altay/1899727/2a0000016a0b1bccf2e2758b8a56cad8e3ea/XXL_height" /></div>
-    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=4e7cfcc71efe6856b648a493a655a780b3479120-4903721-images-thumbs&n=13" /></div>
-    <div class="gallery-item"><img src="https://www.globalresearch.ca/wp-content/uploads/2016/01/ISR-Construction_pd-514.jpg" /></div>
+    <div class="gallery-item">
+      <img src="https://avatars.mds.yandex.net/i?id=c5831b0e075486f52a1c5de23d9813390b658512-6371080-images-thumbs&n=13" />
+      <div class="desc">Modern residential building exterior design</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*jr2pLm--Chx7l7v-" />
+      <div class="desc">High-end apartment complex in development</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://avatars.mds.yandex.net/get-altay/7810332/2a00000187bd71f6cc7d4155f7b53901b6f7/XXL_height" />
+      <div class="desc">Interior design and space planning concept</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://avatars.mds.yandex.net/get-altay/1899727/2a0000016a0b1bccf2e2758b8a56cad8e3ea/XXL_height" />
+      <div class="desc">Construction in progress for urban housing</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://avatars.mds.yandex.net/i?id=4e7cfcc71efe6856b648a493a655a780b3479120-4903721-images-thumbs&n=13" />
+      <div class="desc">Structural work of high-rise residential tower</div>
+    </div>
+    <div class="gallery-item">
+      <img src="https://www.globalresearch.ca/wp-content/uploads/2016/01/ISR-Construction_pd-514.jpg" />
+      <div class="desc">Foundation engineering and steel framework</div>
+    </div>
   </div>
 
   <iframe src="https://maps.google.com/maps?q=22-21%20Klaipeda,%20LT-92298%20Lithuania&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
