@@ -1,67 +1,117 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CAP Garland, LLC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TOLADA, UAB</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
       margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-      color: #333;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fff;
+      color: #111;
     }
     header {
-      background-color: #003366;
+      background: linear-gradient(to right, #8B0000, #000);
       color: white;
-      padding: 30px 20px;
+      padding: 40px 20px;
       text-align: center;
     }
-    section {
-      max-width: 800px;
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.5em;
+    }
+    header p {
+      margin: 5px 0;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #8B0000;
+      margin-bottom: 20px;
+    }
+    .section p {
+      line-height: 1.8;
+      font-size: 1.1em;
+    }
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
       margin: 40px auto;
-      padding: 0 20px;
+      max-width: 1000px;
     }
-    h1, h2 {
-      color: #003366;
+    .gallery-item {
+      border: 4px solid red;
+      padding: 10px;
+      animation: slideIn 2s ease;
     }
-    .contact {
-      background: #fff;
-      padding: 20px;
-      border-left: 5px solid #003366;
-      margin-top: 30px;
+    .gallery-item img {
+      width: 100%;
+      border-radius: 10px;
+      height: auto;
+    }
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    iframe {
+      display: block;
+      margin: 40px auto;
+      width: 95%;
+      height: 500px;
+      border: none;
     }
     footer {
-      background-color: #003366;
+      background: #111;
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 50px;
+      padding: 30px;
+      font-size: 18px;
     }
   </style>
 </head>
 <body>
+
   <header>
-    <h1>CAP Garland, LLC</h1>
-    <p>Private Investment Fund</p>
+    <h1>TOLADA, UAB</h1>
+    <p>contact@toladauab.shop | +37061526474</p>
+    <p>22-21 Klaipeda, LT-92298 Lithuania</p>
   </header>
 
-  <section>
-    <h2>About Us</h2>
-    <p>CAP Garland, LLC is a Washington-based private investment fund focused on delivering value through diversified investment strategies.</p>
+  <div class="section">
+    <h2>Residential Building Construction</h2>
+    <p>
+      TOLADA, UAB is dedicated to delivering cutting-edge construction services, specializing in residential building projects
+      that reflect both quality and modern living standards. With a team of experienced professionals and a commitment
+      to excellence, we bring your vision to life with precision and care. From planning to execution, every step is handled
+      with expertise and integrity.
+    </p>
+  </div>
 
-    <h2>Contact</h2>
-    <div class="contact">
-      <p><strong>Address:</strong> 915 W 2nd Ave, Spokane, WA 99201</p>
-      <p><strong>Email:</strong> <a href="mailto:ryanberg@capgarland.shop">ryanberg@capgarland.shop</a></p>
-      <p><strong>Phone:</strong> (509) 822-3850</p>
-    </div>
-  </section>
+  <div class="gallery">
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=c5831b0e075486f52a1c5de23d9813390b658512-6371080-images-thumbs&n=13" /></div>
+    <div class="gallery-item"><img src="https://miro.medium.com/v2/da:true/resize:fit:1200/0*jr2pLm--Chx7l7v-" /></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/get-altay/7810332/2a00000187bd71f6cc7d4155f7b53901b6f7/XXL_height" /></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/get-altay/1899727/2a0000016a0b1bccf2e2758b8a56cad8e3ea/XXL_height" /></div>
+    <div class="gallery-item"><img src="https://avatars.mds.yandex.net/i?id=4e7cfcc71efe6856b648a493a655a780b3479120-4903721-images-thumbs&n=13" /></div>
+    <div class="gallery-item"><img src="https://www.globalresearch.ca/wp-content/uploads/2016/01/ISR-Construction_pd-514.jpg" /></div>
+  </div>
+
+  <iframe src="https://maps.google.com/maps?q=22-21%20Klaipeda,%20LT-92298%20Lithuania&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 
   <footer>
-    &copy; 2025 CAP Garland, LLC. All rights reserved.
+    &copy; 2025 TOLADA, UAB — All Rights Reserved
   </footer>
+
 </body>
 </html>
